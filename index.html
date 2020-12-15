@@ -16,24 +16,26 @@
   <!--This is the Navbar-->
   <nav class="navbar d-flex navbar-expand-lg navbar-light bg-light mb-3"> <!--Added d-flex class to parent of navbar links so I can justify to the end-->
 
+    <!--this is a container class within the navbar to align navbar content with page container-->
     <div class="container">
 
-      <a class="navbar-brand p-3 mb-2 bg-secondary text-white" href="#">Ryan Johnson</a>
-     
+      <!--This is my name and link to the about me page-->
+      <a class="navbar-brand p-3 mb-2 bg-secondary text-white" href="/index.html">Ryan Johnson</a>
+
+      <!--This is the toggler button that only shows up at smaller viewports-->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
+      <!--These are the nav links that show up on the larger viewports and should wrap up under toggle button at smaller ones-->
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav"> <!--modified bootsrap snipped by adding justify-content-end class for right aligned links-->
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <a class="nav-link" href="/html_pages/contact.html">Contact</a>
           </li>
-
           <li class="nav-item">
             <a class="nav-link" href="/html_pages/portfolio.html">Portfoio</a>
           </li>
-
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="/index.html">About</a> <!--Confirm what do do with page property to aria-current attribute-->
           </li>
@@ -50,7 +52,7 @@
     <!--This is a big row between the nav and footer that will hold the main content of the page-->
     <main class="row">
 
-      <!--This is the column that fills 2/3 of the page and will hold the content-->
+      <!--This is the column section that fills 2/3 of the page and will hold the about me content-->
       <section class="col-md-8 background-white my-5">
 
         <!--This is the header row in the content column-->
@@ -61,22 +63,20 @@
         <!--This is the image and first parapraph row in the content column divided by two subrows-->
         <div class= "row">
 
-          <div class="col-md-4">
+          <!--This is the 12 width column holdindg the about me image and bio text elemenets-->
+          <div class="col-md-12">
             <img src="/assets/ProjectImages/AboutMe300299.jpg" class="rounded float-left mr-2 mb-2" alt="Me and My Fam">
-          </div>
-         
-          <div class="col-md-8">
             <p class="float-left"> <!--have to figure out how to wrap this-->
-                Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio
-                Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio
-                Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio
-                Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio
-            </p>
+              Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio
+              Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio
+              Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio
+              Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio
+           </p>
           </div>
           
         </div>
 
-        <!--This is the second paragraph row in the content column-->
+        <!--This is the second paragraph row in the main column-->
         <div class="row">
           <p>
             Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio
