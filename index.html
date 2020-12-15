@@ -14,7 +14,7 @@
 <body style="background-color:#6c757d;">
 
   <!--This is the Navbar-->
-  <nav class="navbar d-flex navbar-expand-lg navbar-light bg-light mb-5"> <!--Added d-flex class to parent of navbar links so I can justify to the end-->
+  <nav class="navbar d-flex navbar-expand-lg navbar-light bg-light mb-3"> <!--Added d-flex class to parent of navbar links so I can justify to the end-->
 
     <div class="container">
 
@@ -25,9 +25,7 @@
       </button>
 
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav"> <!--modified bootsrap snipped by adding justify-content-end class for right aligned links-->
-
         <ul class="navbar-nav ml-auto">
-
           <li class="nav-item">
             <a class="nav-link" href="/html_pages/contact.html">Contact</a>
           </li>
@@ -39,9 +37,7 @@
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="/index.html">About</a> <!--Confirm what do do with page property to aria-current attribute-->
           </li>
-
         </ul>
-
       </div>
 
     </div>
@@ -49,71 +45,57 @@
   </nav>
 
   <!--This is the Main Section Container For Content on The About Me Page and The Image-->
-  <main class="container">
+  <div class="container">
 
-    <!--This is the first row I set to hold the header, should have a bottom underline-->
-    <header class="row">
+    <!--This is a big row between the nav and footer that will hold the main content of the page-->
+    <main class="row">
 
-        <div class="col-md-8 background-white py-3 border-bottom">
-          <h1 style="color:#6c757d">About Me</h1> <!--Need to update this to reference a bootstrap color class or add in separate style sheet. But color is here-->
+      <!--This is the column that fills 2/3 of the page and will hold the content-->
+      <section class="col-md-8 background-white my-5">
+
+        <!--This is the header row in the content column-->
+        <header class="row py-2">
+          <h1 style="color:#6c757d">About Me</h1> 
+        </header>
+
+        <!--This is the image and first parapraph row in the content column divided by two subrows-->
+        <div class= "row">
+
+          <div class="col-md-4">
+            <img src="/assets/ProjectImages/AboutMe300299.jpg" class="rounded float-left mr-2 mb-2" alt="Me and My Fam">
+          </div>
+         
+          <div class="col-md-8">
+            <p class="float-left"> <!--have to figure out how to wrap this-->
+                Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio
+                Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio
+                Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio
+                Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio
+            </p>
+          </div>
+          
         </div>
 
-        <div class="col-md-4">
-          <!--Space Holder-->
-        </div>
-      
-    </header>
-
-    <!--This is the second row I put to hold the image and first paragraph of text-->
-    <section class="row">
-
-      <div class="col-md-8 background-white py-3">
-        <img src="/assets/ProjectImages/AboutMe300299.jpg" class="rounded float-left mr-2 mb-2" alt="Me and My Fam">
-        <p class="float-left"> <!--have to figure out how to wrap this-->
-          Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio
-          Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio
-          Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio
-          Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio
-        </p>
-      </div>
-
-      <div class="col-md-4">
-        <!--Space Holder-->
-      </div>
-  
-    </section>
-
-    <!--This is the Third row I put to hold the second text blub-->
-    <section class="row">
-
-      <div class="col-md-8 background-white pb-5">
-        Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio
-        Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio
-      </div>
-
-      <div class="col-md-4">
-        <!--Space Holder-->
-      </div>
-
-    </section>
-
-    <footer class="row py-3">
-
-        <div class="col-md-8 text-center">
-          Copyright with @ symbol inserted
+        <!--This is the second paragraph row in the content column-->
+        <div class="row">
+          <p>
+            Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio
+            Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio Lorem Ipsum My Bio
+          </p>
         </div>
 
-        <div class="col-md-4">
-          <!--spaceholder-->
-        </div>
-      
-    </footer>
+      </section>
 
-  </main>
+    </main>
+    
+  </div>
 
-
-
-
+  <!--This is the footer row-->
+  <footer class="row bg-light py-3 mb-0 text-center">
+    <p>
+      Copyright with @ symbol inserted
+    </p>
+  </footer>
 
   <!--Bootsrap JS Script--> 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
