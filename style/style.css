@@ -2,7 +2,7 @@
 .background-white {
     background-color: #ffffff;
 }
-
-.border-footer {
-    border-width: 3px !important;
+ 
+.myfloatleft {
+    float:left
 }
