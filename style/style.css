@@ -6,3 +6,7 @@
 .myfloatleft {
     float:left
 }
+
+.mymarginright {
+    margin-right: .5rem! important;
+}
