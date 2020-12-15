@@ -1,4 +1,7 @@
 
+html,body {
+    overflow:auto
+}
 .background-white {
     background-color: #ffffff;
 }
