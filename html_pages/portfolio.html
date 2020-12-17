@@ -15,7 +15,7 @@
     <title>My Portfolio</title>
   </head>
 
-  <body>
+  <body style="background-color:#6c757d;">
 
      <!--This is the Navbar-->
      <nav class="navbar navbar-expand-lg navbar-light bg-light mb-3"> <!--Added d-flex class to parent of navbar links so I can justify to the end-->
@@ -52,8 +52,65 @@
 
     </nav>
 
+    <!--(Container) This is the Container For All Content On The Page Between NavBar and Footer-->
+    <div class="container">
 
+      <!--(Row 1) This is The Main Row Within The Page Container Including Content and Spacing-->
+      <main class="row">
 
+        <!--(Column 1) This is the Content Column Within The Main Row-->
+        <section class="col-md-8 background-white my-5">
+
+          <!--(Column 1 / Row 1) This row includes the About me header-->
+          <header class="row">
+              <!--(Column 1 / Row 1 / Column 1)-->
+              <div class="col-md-12 ">
+                <h1  class=" py-3 border-bottom border-2" style="color:#6c757d">Portfolio</h1> 
+              </div>
+          </header>
+
+          <!--Column 1 / Row 2) This row includes my about me image and first text paragraph-->
+          <div class= "row pt-3">
+            <!--(Column 1 / Row 2 / Column 1) This is the 12 width column holdindg the about me image and bio text elemenets-->
+            <div class="col-md-12">
+              <img src="/assets/ProjectImages/AboutMe200200.jpg" class="rounded float-start mb-2 me-4" alt="350x350 Portfolio">
+              <img src="/assets/ProjectImages/AboutMe200200.jpg" class="rounded float-start mb-2 me-4" alt="350x350 Portfolio">
+            </div>
+          </div>
+
+          <!--(Column 1 / Row 3) This includes the second about me paragraph-->
+          <div class= "row pt-3">
+            <!--(Column 1 / Row 3 / Column 1) This is the 12 width column holdindg the about me image and bio text elemenets-->
+            <div class="col-md-12">
+              <img src="/assets/ProjectImages/AboutMe200200.jpg" class="rounded float-start mb-2 me-4" alt="350x350 Portfolio">
+              <img src="/assets/ProjectImages/AboutMe200200.jpg" class="rounded float-start mb-2 me-4" alt="350x350 Portfolio">
+            </div>
+          </div>
+
+          <!--(Column 1 / Row 5) This includes the second about me paragraph-->
+          <div class= "row pt-3">
+            <!--(Column 1 / Row 5 / Column 1) This is the 12 width column holdindg the about me image and bio text elemenets-->
+            <div class="col-md-12">
+              <img src="/assets/ProjectImages/AboutMe200200.jpg" class="rounded float-start mb-2 me-4" alt="350x350 Portfolio">
+              <img src="/assets/ProjectImages/AboutMe200200.jpg" class="rounded float-start mb-2 me-4" alt="350x350 Portfolio">
+            </div>
+          </div>
+
+        </section>
+
+        <!--(Column 2) This is a Space Holder in The Main Row to Keep Consistent with BS Grid Layout Use-->
+        <section class="col-md-4"></section>
+
+      </main>
+      
+    </div>
+
+    <!--This is the footer using bs class fixed-bottom-->
+    <footer class="footer mt-auto py-3 bg-light border-top border-5 fixed-bottom"> 
+      <div class="container d-flex justify-content-center">
+        <span class="text-muted">&copy; Copyright</span>
+      </div>
+    </footer>
 
      
     <!--Bootsrap JS Bundle Script--> 
