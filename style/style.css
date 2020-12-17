@@ -1,4 +1,14 @@
 
-.background-white {
-    background-color: #ffffff;
-}
+/*Below are some classes I used on top of bootsrap framework*/
+
+/*Used for body background color*/
+.background-body {
+    background-color:#6c757d;
+}   
+ 
+/*Used for headers*/
+    .background-white {
+        background-color: #ffffff;
+    }
+
+
