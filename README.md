@@ -19,7 +19,7 @@ This assignment provided us an opportunity to learn and utilize bootsrap to crea
 
 ![image](https://user-images.githubusercontent.com/72420733/102437935-5a4f2c00-3fe9-11eb-8205-71e71851a5cf.png)
 
-Whereas the bootsrap documentation was good, there were definitnly things I had to research on my own. I had some difficulty maintaining bottom and side margins at smaller viewport sizes, despite assignining the side margin classes to the elements I wanted to maintain side and bottom margin for:
+Whereas the bootsrap documentation was good, there were definitnly things I had to research on my own. I had some difficulty maintaining bottom and side margins at smaller viewport sizes, despite assignining the side margin classes to the elements I wanted to maintain side and bottom margin for (see below). Id did however confirm despite the example images, that xs viewports should have no margins and conent should cover full screen so I left as is for the 400px viewport width.
 
 ![image](https://user-images.githubusercontent.com/72420733/102437982-7783fa80-3fe9-11eb-978b-63ee9e6752e1.png)
 
@@ -35,7 +35,7 @@ This assignment tought me a lot about bootsrap, and continued to force me to get
 
 ![image](https://user-images.githubusercontent.com/72420733/102438146-c29e0d80-3fe9-11eb-8ac9-39c4031ee70d.png)
 
-**Note** Lastly I leanred that the auto-fill for file path in vs code does not always structure the same way. I had been using live server, and had no issues but then whe I deployed to git pages nothing was loading right from my repo. I found it was because my file paths were not doing the proper ../ to get back and into directories, so I updated them all and things worked. 
+**Note** Lastly I leanred that the auto-fill for file path in vs code does not always structure the same way. I had been using live server, and had no issues but then when I deployed to git pages, nothing was loading right from my repo. I found it was because my file paths were not doing the proper ../ to get back and into directories, so I updated them all and things worked. 
 
 
 ## Credits
