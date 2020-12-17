@@ -8,7 +8,7 @@ Bootsrap Utilization for a Responsive About, Contact, and Portfolio Page.
 3.  [Credits](#Credits)
 
 ## Deployed Applicatoin
-[Enter deployed applicatoin link]
+[https://wryanj.github.io/gt_fsf_hw2_my_bio/]
 
 ## Motivation
 I did this to learn more about bootsrap, and so that I could start to practice some of the things I am learning in general about layouts, css, and other fundamental web languages. 
