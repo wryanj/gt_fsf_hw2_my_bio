@@ -4,8 +4,9 @@ Bootsrap Utilization for a Responsive About, Contact, and Portfolio Page.
 ## Table of Contents
 
 1.  [Deployed Applicatoin](#Deployed-Applicatoin)
-2.  [Description](#Description)
-3.  [Credits](#Credits)
+2.  [Motivation](#Motivation)
+3.  [Description](#Description)
+4.  [Credits](#Credits)
 
 ## Deployed Applicatoin
 [https://wryanj.github.io/gt_fsf_hw2_my_bio/]
