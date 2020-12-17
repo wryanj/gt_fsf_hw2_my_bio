@@ -35,7 +35,9 @@ This assignment tought me a lot about bootsrap, and continued to force me to get
 
 ![image](https://user-images.githubusercontent.com/72420733/102438146-c29e0d80-3fe9-11eb-8ac9-39c4031ee70d.png)
 
-**Note** Lastly I leanred that the auto-fill for file path in vs code does not always structure the same way. I had been using live server, and had no issues but then when I deployed to git pages, nothing was loading right from my repo. I found it was because my file paths were not doing the proper ../ to get back and into directories, so I updated them all and things worked. 
+**Note** I leanred that the auto-fill for file path in vs code does not always structure the same way. I had been using live server, and had no issues but then when I deployed to git pages, nothing was loading right from my repo. I found it was because my file paths were not doing the proper ../ to get back and into directories, so I updated them all and things worked. 
+
+**Note** I also utilized an HTML validation service and was able to find some extra hyphens, and change semantics based on its reccomendations.
 
 
 ## Credits
