@@ -11,9 +11,10 @@
         background-color: #ffffff;
     }
 
-body {
-    display:flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
+/*used to make sure that footer stays at bottom and I can still scroll*/
+    body {
+        display:flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
 
