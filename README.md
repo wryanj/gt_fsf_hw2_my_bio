@@ -23,7 +23,7 @@ I also leanred to make sure that whatever docs I use match the links I put in my
 
 I did not have time to play too much with the details of the styling, but I went with a different theme than the example images provided for the assignment. I went with a minimalistic theme and some black and white images to keep it crisp.
 
-![image](https://user-images.githubusercontent.com/72420733/102437935-5a4f2c00-3fe9-11eb-8205-71e71851a5cf.png)
+![image](https://user-images.githubusercontent.com/72420733/102654705-035b6b00-413f-11eb-8bd1-3fc4557274a7.png)
 
 Whereas the bootsrap documentation was good, there were definitnly things I had to research on my own. I had some difficulty maintaining bottom and side margins at smaller viewport sizes, despite assignining the side margin classes to the elements I wanted to maintain side and bottom margin for (see below). I ended up using some of my own css to resolve the issue, and I did confirm despite the example images, that xs viewports should have no margins and conent should cover full screen width so I left as is for the 400px viewport width.
 
