@@ -25,11 +25,11 @@ I did not have time to play too much with the details of the styling, but I went
 
 ![image](https://user-images.githubusercontent.com/72420733/102437935-5a4f2c00-3fe9-11eb-8205-71e71851a5cf.png)
 
-Whereas the bootsrap documentation was good, there were definitnly things I had to research on my own. I had some difficulty maintaining bottom and side margins at smaller viewport sizes, despite assignining the side margin classes to the elements I wanted to maintain side and bottom margin for (see below). Id did however confirm despite the example images, that xs viewports should have no margins and conent should cover full screen so I left as is for the 400px viewport width.
+Whereas the bootsrap documentation was good, there were definitnly things I had to research on my own. I had some difficulty maintaining bottom and side margins at smaller viewport sizes, despite assignining the side margin classes to the elements I wanted to maintain side and bottom margin for (see below). I ended up using some of my own css to resolve the issue, and I did confirm despite the example images, that xs viewports should have no margins and conent should cover full screen width so I left as is for the 400px viewport width.
 
-![image](https://user-images.githubusercontent.com/72420733/102437982-7783fa80-3fe9-11eb-978b-63ee9e6752e1.png)
+![image](https://user-images.githubusercontent.com/72420733/102654603-cdb68200-413e-11eb-8f7d-91c46a55a33f.png)
 
-I also had some trouble getting the navbar links to justify to the right side of the page after they were uncollapsed at smaller viewports:
+I also had some trouble getting the navbar links to justify to the right side of the page after they were uncollapsed at smaller viewports, but I am not sure if that is ok or not. I did not find any docs on this, aside from those explaining how to get the toggle button justified to the right (end):
 
 ![image](https://user-images.githubusercontent.com/72420733/102438027-8cf92480-3fe9-11eb-8bcd-837f9068f373.png)
 
