@@ -15,7 +15,13 @@ Bootsrap Utilization for a Responsive About, Contact, and Portfolio Page.
 I did this to learn more about bootsrap, and so that I could start to practice some of the things I am learning in general about layouts, css, and other fundamental web languages. 
 
 ## Description
-This assignment provided us an opportunity to learn and utilize bootsrap to create responsive layouts for three static html pages. For me, this assignment was more challenging than the first. I learned very early on to make sure that when reading documentation, you are reading the right version! I was looking into bootsrap 4.5 to solve some needs, and was trying to use classes that had been updated or replaced with bootsrap 5. Upon realizing this, I was able to fix a few issues I was having. I did not have time to play too much with the details of the styling, but I went with a different theme than the example images provided for the assignment. I went with a minimalistic theme and some black and white images to keep it crisp.
+This assignment provided us an opportunity to learn and utilize bootsrap to create responsive layouts for three static html pages. For me, this assignment was more challenging than the first. 
+
+**Note** I used bootstrap 5 for this, which I then realized was still in beta as I got in. I had to add some of my own css to fix some issues, and after checking with a tutor they also believed some of what I was seeing may be a result of things in bs5 that are not worked out yet. There was also a lot less stack info on doing things in bs5, so I will be using bs4 for the next project.
+
+I also leanred to make sure that whatever docs I use match the links I put in my project. I had used bs5 links and was using bs4 docs and that caused some confusion. There were some classes and such that had changed from bs4. 
+
+I did not have time to play too much with the details of the styling, but I went with a different theme than the example images provided for the assignment. I went with a minimalistic theme and some black and white images to keep it crisp.
 
 ![image](https://user-images.githubusercontent.com/72420733/102437935-5a4f2c00-3fe9-11eb-8205-71e71851a5cf.png)
 
