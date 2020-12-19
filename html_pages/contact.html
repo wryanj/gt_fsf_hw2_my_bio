@@ -58,7 +58,7 @@
          <main class="row">
 
             <!--(Column 1) This is the Content Column Within The Main Row-->
-            <div class="col-md-8 background-white my-5">
+            <div class="col-md-8 background-white ">
 
                <!--(Column 1 / Row 1)-->
                <header class="row">
@@ -72,22 +72,26 @@
                <div class= "row pt-3">
                   <!--(Column 1 / Row 2 / Column 1) This is the 12 width column holding the form-->
                   <form class="mb-3">
+                     
                      <!--Name-->
                      <div class="mb-3">
                         <label for="nameInput" class="form-label">Name</label>
                         <input type="text" class="form-control" id="nameInput">
                      </div>
+
                      <!--Email-->
                      <div class="mb-3">
                        <label for="emailInput" class="form-label">Email address</label>
                        <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp">
                        <div id="emailHelp" class="form-text">I won't share your email with anyone else</div>
                      </div>
+
                      <!--Message-->
                      <div class="mb-3">
                         <label for="messageText" class="form-label">Message</label>
                         <textarea class="form-control" id="messageText" rows="3"></textarea>
                      </div>
+
                      <!--Submit Button-->
                      <button type="submit" class="btn btn-secondary">Submit</button>
                    </form>
